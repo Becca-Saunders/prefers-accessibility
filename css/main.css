@@ -61,6 +61,26 @@ html {
 
 }
 
+@media (prefers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  main {
+    background-color: #111;
+  }
+
+}
+
+@media  {
+
+}
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
